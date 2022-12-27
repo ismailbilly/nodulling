@@ -1,0 +1,31 @@
+{
+  "name": "no-dulling",
+  "version": "1.0.0",
+  "description": "This is a social media app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismailbilly/nodulling.git"
+  },
+  "keywords": [
+    "social-media",
+    "fun",
+    "posts",
+    "comments"
+  ],
+  "author": "Bilqisu Ismail",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ismailbilly/nodulling/issues"
+  },
+  "homepage": "https://github.com/ismailbilly/nodulling#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "sequelize": "^6.28.0"
+  }
+}
